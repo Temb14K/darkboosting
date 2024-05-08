@@ -1,0 +1,1151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    src: url("../handelson.otf");
+}
+
+
+@keyframes show-text {
+    0%{
+        bottom: -40px;
+        opacity: 20%;
+    }
+    100%{
+        bottom: 0px;
+        opacity: 100%;
+    }
+}
+
+/*Container*/
+
+.container {
+
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*Media*/
+
+@media (max-width: 1260px) {
+    .links-motto {
+        width: 35%;
+    }
+    .filled-btn {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .empty-btn {
+        display: inline-block;
+    }
+}
+
+
+
+@media (min-width:1180px) {
+    .promo {
+        height: 760px;
+    }
+    .gm-items {
+        top: -135px;
+    }
+    .gm-item-pic {
+        width: 280px;
+    }
+    .games-menu .order-btn {
+        top: -120px;
+    }
+}
+
+
+
+@media (max-width:1180px) {
+    .promo {
+        height: 900px;
+    }
+    .promo-right-side {
+        position: absolute;
+        right: 0;
+        top: 509px;
+        padding-bottom: 150px;
+    }
+    .gm-items {
+        top: -111px;
+    }
+    .gm-item-pic {
+        width: 234px;
+    }
+    .games-menu .order-btn {
+        top: -100px;
+    }
+}
+
+
+
+@media (min-width:1010px) {
+    .purse-number {
+        font-size: 14px;
+        transform: translate(-105px, 4px);
+    }
+    .coins-number {
+        font-size: 14px;
+        transform: translate(-95px, 4px);
+    }
+    .sword-and-shield {
+        transform: translateX(-162px);
+    }
+    .trophy {
+        display: inline-block;
+    }
+    .trophy-lowres {
+        display: none;
+    }
+    .header-items {
+        padding: 15px;
+    }
+    .burger {
+        bottom: 20px;
+    }
+    .avatar {
+        padding-right: 20px;
+        top: 6px;
+    }
+    .promo-items {
+        display: flex;
+    }
+    .promo-item {
+        width: 310px;
+    }
+    .links-title {
+        width: 693px;
+        font-size: 54px;
+        line-height: 54px;
+        padding-bottom: 40px;
+    }
+    .links-btn {
+        padding: 20px;
+        font-size: 18px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        margin-right: 30px;
+    }
+    .advantage-title { 
+        font-size: 54px;
+        line-height: 54px;      
+    }
+    .advantage-p {
+        font-size: 20px;
+        line-height: 28px; 
+    }
+    .reward-text {
+        font-size: 16px;
+    }
+    .more-info {
+        display: inline-flex;
+        bottom: 50px;
+    }
+    .slider-pb {
+        width: 70%;
+    }
+    .arrows {
+        top: 400px;
+    }
+    .l-arrow {
+        padding-left: 60px;
+    }
+    .r-arrow {
+        padding-right: 60px;
+    }
+
+}
+
+
+
+@media (max-width:1010px) {
+    .item-text {
+        display: none;
+    }
+    .burger {
+        left: -10px;
+        bottom: 20px;
+    }
+    .trophy {
+        left: -10px;
+    }
+    .sword-and-shield {
+        transform: translateX(-172px);
+    }
+    .purse-number {
+        font-size: 11px;
+        transform: translate(-50px, 2px);
+    }
+    .coins-number {
+        font-size: 11px;
+        transform: translate(-50px, 2px);
+    }
+    .trophy-lowres {
+        display: none;
+    }
+    .header-items {
+        padding: 15px;
+    }
+    .avatar {
+        padding-right: 20px;
+        top: 6px;
+    }
+    .promo-items {
+        display: block;
+        text-align: center;
+    }
+    .promo-item {
+        display: inline-block;
+    }
+    .links-title {
+        width: 100%;
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+    .links-btn {
+        padding: 15px;
+        font-size: 16px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        margin-right: 20px;
+    }
+    .advantage-title { 
+        font-size: 40px;
+        line-height: 40px;      
+    }
+    .advantage-p {
+        font-size: 18px;
+        line-height: 22px; 
+    }
+    .reward-text {
+        font-size: 12px;
+    }
+    .more-info {
+        display: inline-flex;
+        bottom: 0;
+    }
+    .slider-pb {
+        width: 90%;
+    }
+    .arrows {
+        top: 250px;
+    }
+    .l-arrow {
+        padding-left: 20px;
+    }
+    .r-arrow {
+        padding-right: 20px;
+    }
+    .gm-items {
+        top: -96px;
+    }
+    .gm-item-pic {
+        width: 200px;
+    }
+    .games-menu .order-btn {
+        top: -90px;
+    }
+}
+
+
+
+@media (min-width: 881px) {
+    .links {
+        display: flex;
+        padding-top: 100px;
+    }   
+
+}
+
+
+
+@media (max-width: 880px) {
+    .links {
+        display: block;
+    } 
+    .links-title {
+        padding-top: 50px;
+    }
+    .links-motto {
+        width: 60%;
+    }
+
+    
+}
+
+
+
+@media (max-width:765px) {
+    .sword-and-shield {
+        transform: translateX(-43px);
+        width: 120px;
+        margin-left: 40px;  
+    }
+    .trophy {
+        display: none;
+        
+    }
+    .trophy-lowres {
+        display: inline-block;
+        font-size: 40px;
+        bottom: 18px;
+        margin-left: 46px;
+    }
+    .header-items {
+        padding: 15px;
+    }
+    .promo-title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .high {
+        font-size: 50px;
+    }
+    .promo-left-side {
+        padding-top: 75px;
+    }
+    .promo-motto {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (min-width:765px) {
+    .promo-title {
+        font-size: 76px;
+        width: 720px;
+        line-height: 76px;
+    }
+    .high {
+        font-size: 76px;
+    }
+    .promo-left-side {
+        padding-top: 150px;
+    }
+    .promo-motto {
+        font-size: 20px;
+    }
+    
+}
+
+
+
+@media (max-width:710px) {
+    .header-items {
+        padding: 7px;
+    }
+    .logo {
+        height: 40px;
+    }
+    .burger {
+        bottom: 6px;
+    }
+    .trophy-lowres {
+        bottom: 4px;
+        font-size: 30px;
+        margin-left: 21px;
+    }
+    .sword-and-shield {
+        margin-left: 32px; 
+        width: 80px; 
+    }
+    .item {
+        display: none;
+    }
+    .coins-number {
+        display: none;
+    }
+    .purse-number {
+        display: none;
+    }
+    .language-selector {
+        display: none;
+    }
+    .avatar {
+        top: 0;
+        padding-right: 0px;
+    }
+    .avatar-img {
+        width: 40px;
+    }
+    .adv-image {
+        display: block;
+    }
+    .promo-right-side {
+        top: 400px;
+    }
+    .promo-title {
+        font-size: 28px;
+        width: 100%;
+        line-height: 28px;
+    }
+    .high {
+        font-size: 28px;
+    }
+    .promo-right-side {
+        background-size: 120%;
+        padding-right: 15px;
+    }
+    .promo-subtitle {
+        width: 280px;
+        font-size: 20px;
+        padding-top: 80px;
+    }
+    .promo-motto {
+        margin-bottom: 50px;
+    }
+    .adv-image {
+        width: 98%;
+        margin-top: 75px;
+    }
+    .adv-text {
+        width: 98%;
+        margin-top: 50px;
+    }
+    .reward-items {
+        display: block;
+    }
+    .reward-item {
+        width: 110px;
+    }
+    .reward-title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .gm-title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .advantages {
+        padding-bottom: 150px;
+    }
+    .progress-bar {
+        display: none;
+    }
+    .slider-title {
+        padding-top: 15px;
+        font-size: 40px;
+    }
+    .slider-content {
+        text-align: center;
+    }
+    .slider-ls img {
+        width: 60%;
+    }
+    .slider-rs {
+        z-index: 1;
+        width: 100%;
+        padding-bottom: 60%;
+        background-size: 150%;
+        position: relative;
+        margin-bottom: 25%;
+        transform: translateY(-15%);
+    }
+    .slider-rs-title {
+        padding-top: 35%;
+        font-size: 45px;
+    }
+    .slider-rs-p {
+        display: inline-block;
+        padding-top: 5%;
+        width: 310px;
+        font-size: 15px;
+    }
+    .arrows {
+        position: relative;
+        top: 360px;
+    }
+    .gm-items {
+        top: 0;
+    }
+    .games-menu .order-btn {
+        top: 20px;
+    }
+}
+
+
+
+@media (min-width: 710px) {
+    .promo-right-side {
+        padding-top: 200px;
+        padding-left: 100px;
+        padding-right: 30px;
+        background-position-y: 50px;
+    }
+    .promo-subtitle {
+        width: 302px;
+        font-size: 22px;
+    }
+    .promo-motto {
+        margin-bottom: 100px;
+    }
+    .adv-image {
+        width: 49%;
+        margin-top: 200px;
+    }
+    .adv-text {
+        width: 49%;
+        margin-top: 200px;
+    }
+    .reward-items {
+        display: flex;
+    }
+    .reward-item {
+        width: 11%;
+    }
+    .reward-title {
+        font-size: 54px;
+        line-height: 54px;
+    }
+    .gm-title {
+        font-size: 54px;
+        line-height: 54px;
+    }
+    .advantages {
+        padding-bottom: 300px;
+    }
+    .progress-bar-m {
+        display: none;
+    }
+    .slider-title {
+        font-size: 54px;
+    }
+    .slider-content {
+        justify-content: center;
+        display: flex;
+    }
+    .slider-ls {
+        left: 10%;
+        width: 460px;
+    }
+    .slider-ls img {
+        width: 100%;
+    } 
+    .slider-rs {
+        background-size: contain;
+        width: 560px;
+    }
+    .slider-rs-title {
+        padding-left: 25%;
+        padding-top: 20%;
+        font-size: 45px;
+    }
+    .slider-rs-p {
+        padding-top: 5%;
+        padding-left: 25%;
+        width: 310px;
+        font-size: 15px;
+    }
+    .arrows-m {
+        display: none;
+    }
+    .third-stage .slider-ls img{
+        position: relative;
+        top: 40px;
+    }
+    .third-stage .slider-ls img{
+        position: relative;
+        top: 40px;
+    }
+    .third-stage .slider-rs{
+        background-size: cover;
+        padding-right: 180px;
+        padding-bottom: 8%;
+        width: 720px;
+    }
+    .third-stage .slider-rs-title {
+        padding-top: 22%;
+        padding-left: 40%;
+    }
+    .third-stage .slider-rs-p{
+        padding-top: 2%;
+        padding-bottom: 120px;
+        padding-left: 40%;
+    }
+    .fifth-stage .slider-rs-p{
+        padding-top: 2%;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .links-btn {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .links-motto {
+        width: 300px;
+    }
+}
+
+
+/*Header*/
+
+header {
+    display: inline;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+}
+.header-items {
+    display: flex;
+    justify-content: space-between;
+}
+.left-side {
+    display: inline-block;
+}
+.logo {
+    margin-right: 20px;
+}
+.games {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 6px;
+    font-weight: 500;
+    transition: .1s linear;
+}
+.games:hover {
+    color: #F1A22A;
+}
+.burger {
+    text-decoration: none;
+    position: relative;
+}
+.trophy-lowres {
+    font-family: 'Handelson Six_CYR', sans-serif;
+    padding: 1px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    transition: .1s linear;
+}
+.trophy-lowres:hover {
+    color: #F1A22A;
+}
+.trophy {
+    font-family: 'Handelson Six_CYR', sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 1px;
+    margin-left: 6px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 26px;
+    z-index: 1;
+    transition: .1s linear;
+}
+.trophy:hover {
+    color: #F1A22A;
+}
+.sword-and-shield {
+    position: absolute;
+}
+.right-side {
+    display: inline-block;
+    text-align: right;
+}
+.item {
+    padding-right: 20px;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: .1s linear;
+}
+.item:hover {
+    color: #F1A22A;
+}
+.item-text {
+    padding-left: 5px;
+    font-size: 16px;
+    position: relative;
+    bottom: 10px;
+}
+.coins-number {
+    font-weight: 600;
+    color: #fff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 10px;
+    background-color: #D76700;
+    position: absolute;
+    
+}
+.purse-number {
+    font-weight: 600;
+    color: #fff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 10px;
+    background-color: #D76700;
+    position: absolute;
+    
+}
+
+.avatar {
+    position: relative;
+    
+}
+.avatar-arrow {   
+    padding-left: 4px;
+    bottom: 16px;
+    position: relative;
+}
+.language-selector {
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    bottom: 10px;
+    transition: .1s linear;
+}
+.language-selector:hover {
+    color: #F1A22A;
+}
+.ls-arrow {
+    padding-left: 2px;
+}
+
+
+
+/*Promo Section*/
+
+
+
+.promo-section {
+    background-image: url(images/smoke-bg.png);
+}
+.promo {
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.promo-left-side {
+    display: inline-block;
+    padding-left: 30px;
+}
+.promo-right-side {
+    background-repeat: no-repeat;   
+    background-image: url(images/grunge-background.png);
+}
+.promo-title {
+    animation-name: show-text;
+    animation-duration: 1s;
+    position: relative;
+    font-family: 'Handelson Six_CYR', sans-serif;
+    font-weight: 500;
+    color: #fff; 
+    
+}
+.high {
+    font-family: 'Handelson Six_CYR', sans-serif;
+    font-weight: 500;
+    color: #F1A22A;
+}
+.promo-motto {
+    animation-name: show-text;
+    animation-duration: 1s;
+    position: relative;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+}
+.order-btn {
+    animation-name: show-text;
+    animation-duration: 1s;
+    position: relative;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-color: #fff;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.promo-subtitle {
+    text-align: right;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+.bonus-items {
+    display: flex;
+    justify-content: space-between;
+}
+.bonus-item {
+    padding-top: 20px;
+    display: inline-block;
+}
+.bonus-item-text {
+    text-align: center;
+    display: block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+/*Promo Items Section*/
+
+
+
+.promo-items {
+    justify-content: center;
+    padding-top: 100px;
+}
+.promo-item {
+    padding: 30px;
+}
+.promo-item-title {
+    display: block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.promo-item-p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/*Links Section*/
+
+
+
+.links {
+    justify-content: space-between;
+    margin-top: 200px;
+    background-image: url(images/smoke-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.links-items {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    z-index: 1;
+}
+.links-title {
+    display: block;
+    font-family: 'Handelson Six_CYR', sans-serif;
+    color: #fff;
+    
+}
+.links-btn {
+    background-color: #FEFEFE26;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+.links-image {
+    position: relative;
+    top: 8px;
+    right: 4px;
+}
+
+
+
+/*Advantages Section*/
+
+
+
+.advantages {
+    display: block;
+    text-align: center;
+}
+.adv-text {
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+}
+.advantage-title {
+    width: 100%;
+    font-family: 'Handelson Six_CYR', sans-serif;
+    font-weight: 500;
+    color: #171026;
+    
+}
+.advantage-p {
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.adv-image {
+    position: relative;
+}
+.filled-btn {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
+    background-color: #D76700;
+    margin-right: 40px;
+}
+.empty-btn {
+    text-decoration: none;
+    color: #D76700;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
+    border: solid 2px;
+}
+.play-icon {
+    transform: translateY(8px);
+}
+
+
+
+/*Reward Section*/
+
+
+
+.reward {
+    background-image: url(images/Sec3/smoke-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.reward-items {
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.reward-info {
+    display: block;
+}
+.reward-title {
+    display: block;
+    font-family: 'Handelson Six_CYR', sans-serif;
+    color: #fff;
+}
+.reward-p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.reward-text {
+    display: block;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+.reward-item {
+    display: inline-block;
+    margin:10px;
+    padding: 5px;
+    background:rgba(134, 113, 151, 0.2);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+
+/*Slider Section*/
+
+.first-stage {
+    display: block;
+}
+.second-stage {
+    display: none;
+}
+.third-stage {
+    display: none;
+}
+.fourth-stage {
+    display: none;
+}
+.fifth-stage {
+    display: none;
+}
+.sixth-stage {
+    display: none;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+.l-arrow {
+    cursor: pointer;
+    z-index: 2;
+}
+.r-arrow {
+    cursor: pointer;
+    z-index: 2;
+}
+.slider {
+    padding-top: 100px;
+}
+
+.slider-title {
+    line-height: 54px;
+    font-weight: 500;
+    font-family: 'Handelson Six_CYR', sans-serif;
+    color: #000;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.progress-bar {
+    text-align: center;
+}
+.progress-bar-m {
+    text-align: center;
+}
+.more-info {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #D76700;
+    position: relative;
+    padding-left: 10px;
+}
+
+.more-info img{
+    padding-right: 10px;
+}
+
+.slider-content {
+    width: 100%;
+    background: url(images/Slider/smoke-line.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+    background-position: center 25%;
+    background-size: contain;
+}
+.slider-ls {
+    background: url(images/Slider/grunge-background-3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+.slider-rs {
+    background-image: url(images/Slider/grunge-background-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slider-rs-title {
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Handelson Six_CYR', sans-serif;
+}
+.slider-rs-p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+/*Games-Menu*/
+
+.games-menu {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+.gm-title {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background-size: cover;
+    background-image: url(images/noize-bg.png);
+    display: block;
+    font-family: 'Handelson Six_CYR', sans-serif;
+    color: #fff;
+}
+.gm-items {
+    position: relative;
+}
+.gm-item {
+    display: inline-flex;
+}
+.games-menu .order-btn {
+    color: #D76700;
+    position: relative;
+}
+
+/*Feedback*/
+.feedback {
+    display: inline-flex;
+}
+.feedback-side {
+    width: 340px;
+    background-image: url(images/fs-noise-bg.png);
+}
+.fs-items {
+    padding-left: 30%;
+    padding-top: 120px;
+}
+.fs-item {
+    width: 220px;
+    padding-bottom: 60px;
+}
+.fs-number {
+    font-size: 45px;
+    font-family: 'Handelson Six_CYR', sans-serif;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.fs-text {
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.fs-info {
+    margin-left: 130px;
+}
+.feedback-info {
+    position: relative;
+    left: 620px;
+}
+.feedback-title {
+    font-family: 'Handelson Six_CYR', sans-serif;
+    color: #171026;
+    font-size: 50px;
+}
